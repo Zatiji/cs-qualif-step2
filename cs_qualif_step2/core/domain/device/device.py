@@ -19,7 +19,7 @@ class Device:
         self.__displayName: str = displayName
         self.__location: str = location
         self.__timezone: str = timezone
-
+ 
     def get_device_id(self) -> DeviceId:
         return self.__device_id
 
